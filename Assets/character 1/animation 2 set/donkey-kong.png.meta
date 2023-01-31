@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: 06e5f8da99dc7ab4ab70ca31fda9abfb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barril 1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 20
+        width: 38
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77814e249b7c6ac42b5bd991ed8fb197
+      internalID: 1328342790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barril 2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 22
+        width: 55
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1981f4a7d3aa73e4ebdf92730f427b00
+      internalID: 1774204086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barril 3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 22
+        width: 52
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324155932f4a8ec4bb05cb0509e785ad
+      internalID: -558138606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barril 4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 12
+        width: 46
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f32de16c27c1e04c86bb22461959797
+      internalID: 339997046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barill 5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 36
+        width: 64
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320891625afc2524a9f1c76a73c0be1d
+      internalID: -474363049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      donkey-kong_44: -32424164
+      donkey-kong_28: -1039607758
+      donkey-kong_18: 913936058
+      donkey-kong_54: -453749975
+      donkey-kong_6: -141743765
+      donkey-kong_15: -1252248374
+      barril 2: 1774204086
+      donkey-kong_63: -1656198479
+      donkey-kong_47: 316920083
+      donkey-kong_13: -1743239663
+      donkey-kong_27: 99842158
+      donkey-kong_20: -50713484
+      donkey-kong_37: -433203362
+      donkey-kong_9: 1717347375
+      donkey-kong_65: 564895446
+      donkey-kong_39: -691184462
+      donkey-kong_64: -2024647884
+      donkey-kong_30: -315578104
+      donkey-kong_11: 2031170221
+      donkey-kong_74: 952277125
+      donkey-kong_53: 261683776
+      barril 1: 1328342790
+      donkey-kong_21: 1985868069
+      donkey-kong_16: -2079653443
+      donkey-kong_23: 1283183535
+      donkey-kong_50: 296747814
+      donkey-kong_17: -497452272
+      donkey-kong_26: 586610627
+      donkey-kong_56: -358530267
+      donkey-kong_1: 1002270224
+      donkey-kong_29: 1084223520
+      donkey-kong_40: 681742323
+      donkey-kong_71: 1197739056
+      donkey-kong_24: 1848641332
+      barill 5: -474363049
+      donkey-kong_4: 1863531454
+      donkey-kong_35: -1441970384
+      donkey-kong_41: -1391671503
+      donkey-kong_0: 706394031
+      donkey-kong_3: 1809330489
+      donkey-kong_12: 1155636292
+      donkey-kong_33: -1500572564
+      donkey-kong_60: -1481394228
+      donkey-kong_61: -1051197751
+      donkey-kong_52: -1406298359
+      donkey-kong_19: 1496023293
+      donkey-kong_62: 163745266
+      donkey-kong_73: -201611658
+      donkey-kong_57: 1924517000
+      donkey-kong_34: 903632119
+      barril 3: -558138606
+      donkey-kong_72: -117444074
+      donkey-kong_55: -1627390640
+      donkey-kong_59: 820177322
+      donkey-kong_48: 530306621
+      donkey-kong_38: 1856679873
+      donkey-kong_32: 549812546
+      donkey-kong_36: 1248307634
+      donkey-kong_7: -742567436
+      donkey-kong_5: 1887389946
+      donkey-kong_25: -427756062
+      donkey-kong_58: 2131971807
+      donkey-kong_8: 434627722
+      donkey-kong_10: 1127059921
+      donkey-kong_2: 723645490
+      donkey-kong_42: -1771141185
+      donkey-kong_14: 1689254615
+      donkey-kong_22: 995455569
+      donkey-kong_46: 696673344
+      donkey-kong_49: -1944358749
+      donkey-kong_43: 1837209800
+      donkey-kong_45: -1440629732
+      donkey-kong_31: -591168384
+      donkey-kong_51: -688101509
+      barril 4: 339997046
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

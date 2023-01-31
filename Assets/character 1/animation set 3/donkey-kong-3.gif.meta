@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: 25204a69075d2bb41a50c73e7c26fa3c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run 1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1404
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b16e51ffbe8124a8e5d690ab839c77
+      internalID: 683770545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1404
+        width: 52
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87b06a996d3a9c42b5f0f23b34dbfa3
+      internalID: -2105760420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 3
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1404
+        width: 61
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3743a42a1e68d5a4e99cc6d1ff5ef680
+      internalID: 67410655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1404
+        width: 64
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91308747dcbc2641affc6d6074a4f24
+      internalID: -677302730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 5
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1404
+        width: 66
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70bbcadc7eb94142853163a68c6aa4e
+      internalID: 435042838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1350
+        width: 70
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b2d4f8f06b584a948f2a130bdef47
+      internalID: 1250425090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 7
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1350
+        width: 70
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1133dfe42ae1f414ebbdd9eea07a8847
+      internalID: 1171868131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1349
+        width: 72
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0a46a7129ddf740a36e094685b90c2
+      internalID: -1168270045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1350
+        width: 67
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a7300a6569b174b94445266774d508
+      internalID: 1742432231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1301
+        width: 55
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066502dd643f1f94bae5b8d4b7876cd9
+      internalID: -429213190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1301
+        width: 52
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fbac2129a20f349bbf25682d5d098c
+      internalID: -866249125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1301
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4d7e7337faaf44aa66a7db13fcdad8
+      internalID: -1009416784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 13
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1301
+        width: 42
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee5c00a3835f274f86bf7bf7f829c2d
+      internalID: -1230713324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 14
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1301
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b177a5ef0ed984a97cb684319aac42
+      internalID: -954126188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 990
+        width: 46
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2ea37204960b5498f81465adc7fcc6
+      internalID: -869658097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 990
+        width: 47
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57799c8fcb7ec754098bc006d016f692
+      internalID: -1486570840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 3
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 990
+        width: 50
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c7b78469e020445b21587df8d1a92d
+      internalID: 603440825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 4
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 990
+        width: 55
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1d70d9f362a6f4390419349cb1f7dc
+      internalID: 28961776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 990
+        width: 56
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9448534d1abb1448a22607f4bfec8ae
+      internalID: -1441774850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 956
+        width: 56
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb5f6bac2607cd40bbabb299d777ee7
+      internalID: -1578783177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 956
+        width: 56
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e247dd33e0889b49b986be6cf0d4e3e
+      internalID: 1514058288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 8
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 956
+        width: 55
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56999c397a7f2a41984716780e11250
+      internalID: -587307282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 9
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 956
+        width: 52
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c108d97a5f0354ca86840daf829f68
+      internalID: 268130742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 10
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 956
+        width: 51
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128afb5ada6968b448de62709c8726c2
+      internalID: 2010872061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 921
+        width: 51
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8011ac4c1e9f5742a650e742939d69b
+      internalID: 698733638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 12
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 921
+        width: 51
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efde94b1550f6a34c98c95e8a8c9d0ed
+      internalID: 1957802117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 13
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 921
+        width: 51
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651f0b4de5a56e249844a2b69391dc19
+      internalID: -1706477236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 921
+        width: 52
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc856f3f87ca5c439df1ad9334703d8
+      internalID: 1016078693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 15
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 921
+        width: 56
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fea4efd96a539d4f8210ce3c78895ef
+      internalID: -550324429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 886
+        width: 56
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6572091605d3e7046b81b03a1296163c
+      internalID: 1545688865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 886
+        width: 56
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c53da66d90330a46a0622473bf22b5d
+      internalID: 1416709617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 18
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 886
+        width: 53
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b797ca7cf372794d930141f41ab7f4f
+      internalID: -391559149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stealth 19
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 886
+        width: 48
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d70fb77d4a1e94885d60aac213c714
+      internalID: 1988189606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      donkey-kong-3_67: 641481150
+      stealth 7: 1514058288
+      donkey-kong-3_108: 119638175
+      donkey-kong-3_253: 116989505
+      donkey-kong-3_274: 1706368176
+      run 10: -429213190
+      donkey-kong-3_300: 1478924224
+      donkey-kong-3_38: -248608423
+      donkey-kong-3_185: 1260119362
+      donkey-kong-3_92: -1991781881
+      donkey-kong-3_189: -2120990747
+      donkey-kong-3_320: 1433692007
+      donkey-kong-3_220: 929867796
+      donkey-kong-3_22: -572416116
+      donkey-kong-3_81: 888500157
+      donkey-kong-3_301: -1478227121
+      donkey-kong-3_83: -1976520777
+      donkey-kong-3_319: 878332358
+      donkey-kong-3_35: 1243086967
+      donkey-kong-3_208: -1153475106
+      donkey-kong-3_71: -159637826
+      donkey-kong-3_100: 1764520684
+      donkey-kong-3_69: -157027565
+      donkey-kong-3_123: -2065391975
+      donkey-kong-3_270: 65209779
+      donkey-kong-3_211: 1255504745
+      donkey-kong-3_277: -1608468456
+      donkey-kong-3_314: 768454233
+      donkey-kong-3_284: -1054037733
+      donkey-kong-3_192: 1695266248
+      donkey-kong-3_47: 325558700
+      donkey-kong-3_222: -1872962784
+      donkey-kong-3_105: -423711682
+      donkey-kong-3_200: -40530902
+      donkey-kong-3_231: 1127757051
+      donkey-kong-3_102: -518018492
+      donkey-kong-3_323: -180898156
+      donkey-kong-3_306: -1106491632
+      donkey-kong-3_165: 1003402624
+      donkey-kong-3_49: -484031644
+      donkey-kong-3_203: 166527676
+      donkey-kong-3_76: 1172362629
+      donkey-kong-3_77: 1602969324
+      donkey-kong-3_169: -745627981
+      donkey-kong-3_287: -122102777
+      donkey-kong-3_238: -1935577244
+      donkey-kong-3_138: 563009448
+      donkey-kong-3_317: 1277725486
+      donkey-kong-3_24: 1109437693
+      donkey-kong-3_57: -786818547
+      donkey-kong-3_78: -269873809
+      donkey-kong-3_184: 577684377
+      donkey-kong-3_318: 1895825457
+      donkey-kong-3_156: -753426284
+      stealth 11: 698733638
+      donkey-kong-3_190: 166053454
+      donkey-kong-3_36: 339390686
+      donkey-kong-3_213: 1261471017
+      donkey-kong-3_245: 885293813
+      donkey-kong-3_3: 470012822
+      run 11: -866249125
+      donkey-kong-3_155: 68388971
+      donkey-kong-3_170: 439705597
+      run 1: 683770545
+      donkey-kong-3_89: 332472273
+      donkey-kong-3_157: 768161777
+      donkey-kong-3_321: -151940598
+      donkey-kong-3_72: 1029097630
+      donkey-kong-3_206: 1828446766
+      donkey-kong-3_326: 189784298
+      donkey-kong-3_33: 828708274
+      donkey-kong-3_97: 1168444216
+      donkey-kong-3_197: -989262310
+      donkey-kong-3_286: 1295111342
+      donkey-kong-3_119: -1077975728
+      donkey-kong-3_174: 6505238
+      run 9: 1742432231
+      stealth 3: 603440825
+      donkey-kong-3_239: 414429952
+      donkey-kong-3_171: 1339568720
+      donkey-kong-3_173: 271051402
+      donkey-kong-3_266: 1832996618
+      donkey-kong-3_186: -269776556
+      donkey-kong-3_313: 835465031
+      donkey-kong-3_194: -1820147891
+      donkey-kong-3_146: -264570750
+      run 8: -1168270045
+      donkey-kong-3_19: 2097154867
+      stealth 14: 1016078693
+      donkey-kong-3_223: -1855076212
+      donkey-kong-3_32: 1663909645
+      donkey-kong-3_262: 2055324053
+      donkey-kong-3_163: -889847078
+      donkey-kong-3_225: -58832107
+      donkey-kong-3_166: -915621711
+      donkey-kong-3_0: 1316218260
+      donkey-kong-3_193: 1773117267
+      donkey-kong-3_312: 427266380
+      donkey-kong-3_311: -1872613390
+      donkey-kong-3_34: -1833369623
+      donkey-kong-3_116: -321290912
+      donkey-kong-3_292: -1853976231
+      donkey-kong-3_98: -1810737515
+      donkey-kong-3_8: -1423319941
+      donkey-kong-3_86: 1622203355
+      donkey-kong-3_254: 367188986
+      donkey-kong-3_209: 816196661
+      donkey-kong-3_305: -1108208918
+      donkey-kong-3_176: -20157513
+      donkey-kong-3_14: -378148337
+      donkey-kong-3_241: -1782787720
+      donkey-kong-3_299: -205101687
+      donkey-kong-3_167: -1934899226
+      stealth 12: 1957802117
+      donkey-kong-3_242: 451101172
+      donkey-kong-3_114: 1299336922
+      donkey-kong-3_136: 352269809
+      donkey-kong-3_264: 467176963
+      donkey-kong-3_237: 206144689
+      donkey-kong-3_228: 2060362604
+      donkey-kong-3_309: -1480210106
+      donkey-kong-3_296: -522651469
+      donkey-kong-3_125: 16786916
+      donkey-kong-3_310: 1784421122
+      donkey-kong-3_11: 833539415
+      donkey-kong-3_226: -1105348984
+      donkey-kong-3_104: 1195127080
+      donkey-kong-3_172: -1038667124
+      donkey-kong-3_240: -1955915536
+      donkey-kong-3_175: -1617629164
+      donkey-kong-3_251: 162147357
+      donkey-kong-3_95: 773273883
+      donkey-kong-3_230: -1103715551
+      donkey-kong-3_246: -1629745882
+      donkey-kong-3_25: 2016381968
+      donkey-kong-3_121: 2109802305
+      donkey-kong-3_295: -1883705988
+      run 4: -677302730
+      stealth 6: -1578783177
+      donkey-kong-3_103: -335404406
+      donkey-kong-3_214: 1150750822
+      donkey-kong-3_29: 558298680
+      donkey-kong-3_164: 604314525
+      donkey-kong-3_183: -1409392593
+      donkey-kong-3_201: 194150655
+      donkey-kong-3_322: -1988874494
+      donkey-kong-3_177: -528589730
+      donkey-kong-3_293: -614686510
+      donkey-kong-3_6: 955693474
+      donkey-kong-3_137: 482692712
+      donkey-kong-3_234: -1456824964
+      donkey-kong-3_118: 1259740917
+      donkey-kong-3_64: 653980815
+      donkey-kong-3_227: -1443051229
+      donkey-kong-3_283: 2091327005
+      donkey-kong-3_259: 1180755804
+      donkey-kong-3_99: -1312971282
+      donkey-kong-3_178: -250492096
+      donkey-kong-3_255: 1037323761
+      run 2: -2105760420
+      stealth 8: -587307282
+      donkey-kong-3_207: -1665356612
+      donkey-kong-3_9: 452893811
+      donkey-kong-3_111: -637333309
+      donkey-kong-3_117: -121364549
+      donkey-kong-3_28: -1634585496
+      donkey-kong-3_182: 527602588
+      donkey-kong-3_202: 1433100020
+      donkey-kong-3_191: -20829695
+      donkey-kong-3_73: 314299433
+      donkey-kong-3_215: 906466053
+      donkey-kong-3_56: 1210285189
+      donkey-kong-3_107: 2129537132
+      donkey-kong-3_17: -1617377199
+      donkey-kong-3_27: -123122340
+      donkey-kong-3_54: 1214136670
+      donkey-kong-3_221: -200802488
+      donkey-kong-3_40: 2115989755
+      donkey-kong-3_94: 2076991162
+      donkey-kong-3_134: 2066594757
+      donkey-kong-3_291: -1326563448
+      stealth 18: -391559149
+      donkey-kong-3_75: 708354730
+      donkey-kong-3_87: -771519931
+      donkey-kong-3_285: 1593150954
+      donkey-kong-3_271: -1457959343
+      donkey-kong-3_127: 952653266
+      donkey-kong-3_265: -371047096
+      donkey-kong-3_308: -1245219555
+      donkey-kong-3_128: -282485757
+      donkey-kong-3_289: 1770253650
+      donkey-kong-3_204: 1785470763
+      donkey-kong-3_31: -868002764
+      donkey-kong-3_275: 1577180609
+      donkey-kong-3_316: -820936888
+      donkey-kong-3_212: -1331404787
+      donkey-kong-3_46: -186595390
+      donkey-kong-3_282: -1818392548
+      donkey-kong-3_281: 359953726
+      donkey-kong-3_244: 1549255890
+      donkey-kong-3_307: 339555513
+      donkey-kong-3_288: 168298712
+      donkey-kong-3_267: 1024345976
+      stealth 13: -1706477236
+      stealth 17: 1416709617
+      donkey-kong-3_5: -1528663277
+      donkey-kong-3_179: 1738918465
+      donkey-kong-3_304: -217454929
+      donkey-kong-3_23: -456955815
+      donkey-kong-3_7: -1599101754
+      stealth 2: -1486570840
+      donkey-kong-3_120: 273129540
+      donkey-kong-3_217: 627652691
+      donkey-kong-3_106: 1633977303
+      run 5: 435042838
+      stealth 19: 1988189606
+      run 6: 1250425090
+      stealth 5: -1441774850
+      donkey-kong-3_235: -1972445288
+      donkey-kong-3_302: -472685692
+      donkey-kong-3_101: -931765587
+      donkey-kong-3_252: 431378616
+      donkey-kong-3_269: -273959152
+      run 7: 1171868131
+      donkey-kong-3_10: 2019390226
+      donkey-kong-3_39: -290873483
+      donkey-kong-3_65: -146888976
+      donkey-kong-3_16: -1013631171
+      donkey-kong-3_188: 1013279416
+      donkey-kong-3_198: -1458410558
+      donkey-kong-3_272: 1395622641
+      donkey-kong-3_315: -2015974122
+      donkey-kong-3_21: -1694986418
+      donkey-kong-3_261: -1819522343
+      donkey-kong-3_278: 1891284621
+      donkey-kong-3_257: 2039786678
+      donkey-kong-3_279: -122638289
+      donkey-kong-3_248: -1852304957
+      run 3: 67410655
+      donkey-kong-3_145: 305013817
+      donkey-kong-3_93: -241715871
+      donkey-kong-3_4: -1031279092
+      donkey-kong-3_180: 685101508
+      donkey-kong-3_256: 1563300648
+      donkey-kong-3_148: 1015896246
+      donkey-kong-3_247: -1137438350
+      donkey-kong-3_168: 1531364384
+      run 13: -1230713324
+      donkey-kong-3_324: -1123547636
+      donkey-kong-3_273: 2069511969
+      donkey-kong-3_144: 389606786
+      run 14: -954126188
+      donkey-kong-3_195: 1393596612
+      stealth 1: -869658097
+      stealth 15: -550324429
+      donkey-kong-3_126: -1067090446
+      donkey-kong-3_181: -341614864
+      donkey-kong-3_199: 1259451139
+      donkey-kong-3_68: 352006897
+      donkey-kong-3_26: -1689658255
+      donkey-kong-3_147: 1632563566
+      donkey-kong-3_112: 834417934
+      donkey-kong-3_276: 1601660470
+      donkey-kong-3_243: -1035548967
+      donkey-kong-3_205: -243571685
+      donkey-kong-3_298: -1716690463
+      donkey-kong-3_12: -1691145065
+      donkey-kong-3_294: -1801580786
+      donkey-kong-3_297: -1682787454
+      donkey-kong-3_88: -332275655
+      donkey-kong-3_124: 889282683
+      donkey-kong-3_70: 201277543
+      donkey-kong-3_91: -1351375189
+      donkey-kong-3_260: 1741842169
+      donkey-kong-3_154: 796954641
+      donkey-kong-3_224: 1712281528
+      donkey-kong-3_80: -972574226
+      donkey-kong-3_30: 1867726863
+      donkey-kong-3_229: -1780880715
+      donkey-kong-3_79: -86321044
+      donkey-kong-3_85: 1489354670
+      stealth 9: 268130742
+      donkey-kong-3_187: -910913401
+      stealth 4: 28961776
+      donkey-kong-3_18: -73880665
+      donkey-kong-3_84: -1292091718
+      donkey-kong-3_233: -720151591
+      donkey-kong-3_1: 1361622846
+      donkey-kong-3_113: -1112698265
+      donkey-kong-3_90: -2039202157
+      donkey-kong-3_210: -2088025303
+      donkey-kong-3_15: 1033387539
+      donkey-kong-3_109: -1462302889
+      donkey-kong-3_2: 705200988
+      donkey-kong-3_218: -2085037068
+      donkey-kong-3_162: -1248287600
+      donkey-kong-3_303: -912317475
+      donkey-kong-3_263: 762902601
+      donkey-kong-3_325: -254794580
+      donkey-kong-3_280: 111005743
+      run 12: -1009416784
+      donkey-kong-3_55: -620562969
+      donkey-kong-3_236: -675251
+      donkey-kong-3_82: -243923761
+      donkey-kong-3_268: 432365568
+      donkey-kong-3_13: -2089325254
+      donkey-kong-3_48: -160762652
+      donkey-kong-3_110: 25933764
+      donkey-kong-3_196: 527060682
+      donkey-kong-3_219: 1337928006
+      donkey-kong-3_290: -715685731
+      donkey-kong-3_122: 316303852
+      donkey-kong-3_216: -951753670
+      donkey-kong-3_232: -1917190677
+      stealth 16: 1545688865
+      donkey-kong-3_66: 200768978
+      donkey-kong-3_249: 594498939
+      donkey-kong-3_115: 5345552
+      donkey-kong-3_20: 1518680190
+      stealth 10: 2010872061
+      donkey-kong-3_74: -849721749
+      donkey-kong-3_250: 1544442
+      donkey-kong-3_37: -689127610
+      donkey-kong-3_58: -375328854
+      donkey-kong-3_96: -17616187
+      donkey-kong-3_258: 1943206867
+      donkey-kong-3_135: 1903215519
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
