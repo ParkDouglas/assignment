@@ -882,7 +882,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedObjects_37
+      name: Score
       rect:
         serializedVersion: 2
         x: 365
@@ -1620,7 +1620,7 @@ TextureImporter:
       name: editedObjects_72
       rect:
         serializedVersion: 2
-        x: 299
+        x: 300
         y: 1651
         width: 21
         height: 19
@@ -1659,7 +1659,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedObjects_74
+      name: life
       rect:
         serializedVersion: 2
         x: 345
@@ -2394,7 +2394,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedObjects_109
+      name: Speed
       rect:
         serializedVersion: 2
         x: 108
@@ -3633,7 +3633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedObjects_365
+      name: Jump
       rect:
         serializedVersion: 2
         x: 247
@@ -4241,10 +4241,10 @@ TextureImporter:
       editedObjects_504: -108617190
       editedObjects_662: 1630617098
       editedObjects_185: -1302714663
+      editedObjects_530: 1858655387
       editedObjects_363: 1654860363
       editedObjects_394: -1675613940
       editedObjects_402: 1179042814
-      editedObjects_530: 1858655387
       editedObjects_79: -2115388967
       editedObjects_457: 433225781
       editedObjects_237: -617987989
@@ -4278,7 +4278,6 @@ TextureImporter:
       editedObjects_621: 615932142
       editedObjects_115: -500213999
       editedObjects_102: 470223049
-      editedObjects_74: 1472393336
       editedObjects_642: -879347600
       editedObjects_298: 591067160
       editedObjects_464: 338576717
@@ -4387,6 +4386,7 @@ TextureImporter:
       editedObjects_234: 1636910
       editedObjects_246: 2140037503
       editedObjects_541: -1747186507
+      life: 1472393336
       editedObjects_58: 1409732009
       editedObjects_197: -1863830329
       editedObjects_280: -1513480234
@@ -4521,24 +4521,23 @@ TextureImporter:
       editedObjects_633: 746650244
       editedObjects_236: -15572302
       editedObjects_279: 1875404955
-      editedObjects_441: -861604600
       editedObjects_118: -1280675171
       editedObjects_248: 872363167
+      editedObjects_441: -861604600
       editedObjects_260: -868055044
       editedObjects_65: 349862572
       editedObjects_232: -943051866
       editedObjects_646: 1737644498
       editedObjects_407: -623576055
       editedObjects_132: 721541990
-      editedObjects_608: -1720561869
-      editedObjects_37: -1088053096
       editedObjects_283: -1884379283
       editedObjects_509: 1346666017
+      editedObjects_608: -1720561869
       editedObjects_607: 214547022
-      editedObjects_109: 646527966
       editedObjects_630: 692619663
       editedObjects_233: 241185680
       editedObjects_96: -1778457067
+      Jump: 440065314
       editedObjects_26: 291495714
       editedObjects_111: 97143229
       editedObjects_529: 396286248
@@ -4781,12 +4780,14 @@ TextureImporter:
       editedObjects_67: 448047821
       editedObjects_395: -496660289
       editedObjects_344: -1137280655
+      Speed: 646527966
       editedObjects_418: -1518079385
       editedObjects_475: -1325821624
       editedObjects_110: 898390516
       editedObjects_222: 167879347
       editedObjects_657: -1517910471
       editedObjects_278: 787309212
+      Score: -1088053096
       editedObjects_593: -159485146
       editedObjects_591: 297571402
       editedObjects_624: -1093060708
@@ -4796,7 +4797,6 @@ TextureImporter:
       editedObjects_180: -1370783518
       editedObjects_501: 1144427363
       editedObjects_656: -6621856
-      editedObjects_365: 440065314
       editedObjects_437: 1548375545
       editedObjects_382: -1331648843
       editedObjects_442: -1472849059

@@ -23,6 +23,28 @@ public class PlayerController : MonoBehaviour
     public LayerMask isGroundlayer;
     public float groundCheckRadius;
 
+    Coroutine jumpForceChange;
+
+    Coroutine speedChange;
+
+    public int maxLives = 5;
+    public int _Lives = 3;
+
+    public int Lives
+    {
+        get { return _Lives; }
+        set
+        {
+            _Lives = value;
+            if (_Lives > maxLives)
+                _Lives = maxLives;
+           // if (_Lives < 0)
+              //  gameover
+                
+              Debug.Log("lives have been set to: " + _Lives.ToString());
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -118,5 +140,53 @@ public class PlayerController : MonoBehaviour
             sr.flipX = (hinput < 0);
 
     }
- 
+    public void StartJumpForceChange()
+    {
+        if (jumpForceChange == null)
+        {
+            jumpForceChange = StartCoroutine(JumpForceChange());
+        }
+        else
+        {
+            StopCoroutine(jumpForceChange);
+            jumpForceChange = null;
+            jumpForce /= 2;
+            jumpForceChange = StartCoroutine(JumpForceChange());
+        }
+    }
+    IEnumerator JumpForceChange()
+    {
+        jumpForce *= 2;
+
+        yield return new WaitForSeconds(5.0f);
+
+        jumpForce /= 2;
+
+        jumpForceChange= null;
+    }
+
+    public void StartSpeedChange()
+    {
+        if (speedChange == null)
+        {
+            speedChange = StartCoroutine(SpeedChange());
+        }
+        else
+        {
+            StopCoroutine(speedChange);
+            speedChange = null;
+            speed /= 2;
+            speedChange = StartCoroutine(SpeedChange());
+        }
+    }
+    IEnumerator SpeedChange()
+    {
+        speed *= 2;
+
+        yield return new WaitForSeconds(5.0f);
+
+        speed /= 2;
+
+        speedChange = null;
+    }
 }

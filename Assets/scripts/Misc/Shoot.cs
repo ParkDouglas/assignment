@@ -37,5 +37,5 @@ public class Shoot : MonoBehaviour
             curProjectile.speed = -projectileSpeed;
         }
     }
-   
+    
 }
