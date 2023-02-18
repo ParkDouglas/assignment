@@ -9,6 +9,9 @@ public class CameraFollow : MonoBehaviour
     public float minXClamp;
     public float maxXClamp;
 
+    public float minYClamp;
+    public float maxYClamp;
+
     private void LateUpdate()
     {
         Vector3 cameraPosition;
@@ -17,6 +20,9 @@ public class CameraFollow : MonoBehaviour
 
         cameraPosition.x = Mathf.Clamp(player.transform.position.x, minXClamp, maxXClamp);
 
+        cameraPosition.y = Mathf.Clamp(player.transform.position.y, minYClamp, maxYClamp);
+
         transform.position = cameraPosition;
     }
+
 }
