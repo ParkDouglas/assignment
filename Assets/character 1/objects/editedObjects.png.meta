@@ -4011,27 +4011,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: editedObjects_676
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 6
-        width: 276
-        height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14119695ef8220140b71c6191c1eddad
-      internalID: 1673623610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Projectile  1
       rect:
         serializedVersion: 2
@@ -4199,6 +4178,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: EnemyProjectile1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 11
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8c8eb986147334d80e132546f40484
+      internalID: 1294430265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyProjectile2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 11
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb70df9f08041d84299041d310e6df16
+      internalID: 1803877559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyProjectile3
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 11
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3e5d5e3a329834bbf5032c6b19b2a7
+      internalID: -1366798175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyProjectile4
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 10
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccea6cb27d86a840ba75603b1022f28
+      internalID: 1402203150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyProjectile5
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 8
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81656e56a0e69c94aa7df770c91a237c
+      internalID: 334831420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyProjectile6
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 9
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf27e9bf76cd2a40908eb64ecb39327
+      internalID: 185259659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyProjectile7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 8
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceec7961cfb95014ba356d2a3bd2e593
+      internalID: -1273137764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyProjectile8
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 6
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c6dd1830521244cbfdf4b4c0461b7c
+      internalID: 1018750025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -4212,6 +4359,7 @@ TextureImporter:
     nameFileIdTable:
       editedObjects_11: -1384964241
       editedObjects_616: -351596467
+      EnemyProjectile6: 839685212
       editedObjects_517: -1434237022
       editedObjects_540: -795841894
       editedObjects_157: -1040009140
@@ -4260,7 +4408,6 @@ TextureImporter:
       editedObjects_654: 904523863
       editedObjects_380: 561956980
       editedObjects_171: -1987930665
-      editedObjects_161: 1651979544
       editedObjects_497: 1044199210
       editedObjects_214: -392405765
       editedObjects_379: 576159245
@@ -4271,6 +4418,7 @@ TextureImporter:
       editedObjects_481: 2079414014
       editedObjects_329: 819199955
       editedObjects_484: -732385997
+      EnemyProjectile7: 832303106
       editedObjects_574: -86761123
       editedObjects_371: -1119742942
       editedObjects_204: -904386358
@@ -4331,14 +4479,12 @@ TextureImporter:
       editedObjects_317: -1981223062
       editedObjects_384: -1213676643
       editedObjects_375: -1669389224
-      editedObjects_162: 839685212
       editedObjects_219: -635967729
-      editedObjects_156: 1585275394
       editedObjects_507: -1261495895
+      editedObjects_156: 1585275394
       editedObjects_432: 1505616711
-      editedObjects_160: 1071153390
-      editedObjects_296: 1649730297
       editedObjects_551: -1628053439
+      editedObjects_296: 1649730297
       editedObjects_368: -2143652249
       editedObjects_411: 399464596
       editedObjects_252: -1627450677
@@ -4492,6 +4638,7 @@ TextureImporter:
       editedObjects_367: 1273334921
       editedObjects_27: 1771525703
       editedObjects_94: -234797103
+      EnemyProjectile8: -1701178350
       editedObjects_474: 128385650
       editedObjects_424: -1059400335
       editedObjects_570: -2073583597
@@ -4521,9 +4668,9 @@ TextureImporter:
       editedObjects_633: 746650244
       editedObjects_236: -15572302
       editedObjects_279: 1875404955
+      editedObjects_441: -861604600
       editedObjects_118: -1280675171
       editedObjects_248: 872363167
-      editedObjects_441: -861604600
       editedObjects_260: -868055044
       editedObjects_65: 349862572
       editedObjects_232: -943051866
@@ -4636,6 +4783,7 @@ TextureImporter:
       editedObjects_287: 866307561
       editedObjects_271: 1774202948
       editedObjects_648: 323907517
+      EnemyProjectile4: 1071153390
       editedObjects_660: 1037108131
       editedObjects_170: 1781170931
       editedObjects_454: -1442438077
@@ -4658,6 +4806,7 @@ TextureImporter:
       editedObjects_623: 1707551491
       editedObjects_533: 949126616
       editedObjects_583: 21205897
+      EnemyProjectile2: 1803877559
       editedObjects_331: -1911073803
       editedObjects_112: -1714151731
       Projectile  1: -336143776
@@ -4673,6 +4822,7 @@ TextureImporter:
       editedObjects_487: -457250977
       editedObjects_87: -83430594
       editedObjects_557: 1867327957
+      EnemyProjectile3: -1366798175
       editedObjects_503: -464876767
       editedObjects_144: -1109872717
       editedObjects_334: 1922364981
@@ -4706,7 +4856,6 @@ TextureImporter:
       editedObjects_419: -1188360724
       editedObjects_251: 662284813
       editedObjects_449: 2093834008
-      editedObjects_163: 832303106
       editedObjects_513: 476770281
       editedObjects_409: 74794143
       editedObjects_412: -670811782
@@ -4724,6 +4873,7 @@ TextureImporter:
       editedObjects_23: -882892491
       editedObjects_99: 2035802114
       editedObjects_148: -339026106
+      EnemyProjectile5: 1651979544
       editedObjects_228: -399511799
       editedObjects_538: -1578715880
       editedObjects_257: 585781795
@@ -4848,7 +4998,6 @@ TextureImporter:
       editedObjects_486: -536791240
       editedObjects_355: 756174701
       editedObjects_39: -1148843880
-      editedObjects_164: -1701178350
       editedObjects_638: -1474728152
       editedObjects_589: 1278961211
       editedObjects_619: -1690816916
@@ -4861,6 +5010,7 @@ TextureImporter:
       editedObjects_89: -272627323
       editedObjects_133: -978074344
       editedObjects_655: -1591153683
+      EnemyProjectile1: 1294430265
       editedObjects_56: -2121925826
       editedObjects_241: -849491637
       editedObjects_472: 827036083

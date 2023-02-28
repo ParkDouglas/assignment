@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Shoot : MonoBehaviour
+public class EnemyShoot : MonoBehaviour
 {
     SpriteRenderer sr;
 
@@ -12,7 +12,7 @@ public class Shoot : MonoBehaviour
     public Transform spawnPointRight;
     public Transform spawnPointLeft;
 
-    public Projectile projectilePrefab;
+    public EnemyProjectile projectilePrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,12 +29,12 @@ public class Shoot : MonoBehaviour
     {
         if (!sr.flipX)
         {
-            Projectile curProjectile = Instantiate(projectilePrefab, spawnPointRight.position, spawnPointRight.rotation);
+            EnemyProjectile curProjectile = Instantiate(projectilePrefab, spawnPointRight.position, spawnPointRight.rotation);
             curProjectile.speed = projectileSpeed;
         }
         else
         {
-            Projectile curProjectile = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
+            EnemyProjectile curProjectile = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
             curProjectile.speed = -projectileSpeed;
         }
 

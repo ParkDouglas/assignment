@@ -7,6 +7,15 @@ TagManager:
   - GroundCheck
   - Ground
   - Wall
+  - Barrier
+  - Squish
+  - Enemy
+  - PlayerProjectile
+  - EnemyProjectile
+  - spawnPointRight
+  - spawnPointLeft
+  - rangeRight
+  - rangeLeft
   layers:
   - Default
   - TransparentFX
