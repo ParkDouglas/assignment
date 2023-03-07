@@ -18,22 +18,22 @@ public class PowerUp : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
             {
 
-               PlayerController temp = collision.gameObject.GetComponent<PlayerController>();
+              
 
                 switch (currentPickup)
                 {
                     case PowerUpType.Jump:
-                    temp.StartJumpForceChange();
+                    collision.gameObject.GetComponent<PlayerController>().StartJumpForceChange();
                     break;
 
                     case PowerUpType.Life:
-                    temp.Lives++;
-                    
+                    GameManager.instance.Lives++;
                     break;
+
                     case PowerUpType.Score:
                     break;
                     case PowerUpType.Speed:
-                    temp.StartSpeedChange();
+                    collision.gameObject.GetComponent<PlayerController>().StartSpeedChange();
                     break;
                 }
         }

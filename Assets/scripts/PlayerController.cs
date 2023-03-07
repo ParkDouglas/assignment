@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
         set
         {
             _Lives = value;
+
             if (_Lives > maxLives)
                 _Lives = maxLives;
            // if (_Lives < 0)

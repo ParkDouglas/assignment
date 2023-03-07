@@ -20,8 +20,7 @@ public class EnemyTurrent : Enemy
     float timeSinceLastFire;
     EnemyShoot shootScript;
     public float minAttackDistance = 0.5f;
-    private GameObject Player;
-    private Rigidbody2D rb;
+   
     public float force;
     public Transform Player2;
     public Transform rangeLeft;
@@ -42,11 +41,11 @@ public class EnemyTurrent : Enemy
         // Debug.Log(distance);
        // if (PlayerInSight() && gameObject.CompareTag("Player"))
         {
-            if (Player2.position.x - rangeLeft.position.x < 0)
+            if (GameManager.instance.playerInstance.transform.position.x - rangeLeft.position.x < 0)
             {
                 anim.SetBool("OutOfRange", true); 
             }
-            else if (Player2.position.x - rangeRight.position.x > 0)
+            else if (GameManager.instance.playerInstance.transform.position.x - rangeRight.position.x > 0)
             {
                 anim.SetBool("OutOfRange", true);
             }
@@ -62,7 +61,7 @@ public class EnemyTurrent : Enemy
                     anim.SetTrigger("Shoot");
                 }
             }
-            if (transform.position.x > Player2.position.x)
+            if (transform.position.x > GameManager.instance.playerInstance.transform.position.x)
             {
                 sr.flipX = true;
             }
