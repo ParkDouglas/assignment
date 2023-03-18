@@ -85,6 +85,7 @@ public class EnemyTurrent : Enemy
 
     public override void Death()
     {
+        AudioManager.Instance.Play("deathBird");
         Destroy(gameObject);
     }
 

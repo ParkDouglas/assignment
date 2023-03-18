@@ -47,10 +47,13 @@ public class EnemyWalker : Enemy
 
     public void Squish()
     {
+       
         anim.SetTrigger("Squish");
     }
     public void DestroyMyself()
     {
+
+        AudioManager.Instance.Play("deathBeaver");
         Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
     }
 }

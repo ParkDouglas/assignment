@@ -28,6 +28,7 @@ public class EnemyProjectile : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             GameManager.instance.Lives--;
+            AudioManager.Instance.Play("deathPlayer"); 
            Destroy(this.gameObject);
         }
         

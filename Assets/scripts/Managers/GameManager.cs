@@ -35,7 +35,11 @@ public class GameManager : MonoBehaviour
                 _Lives = maxLives;
 
             if (_Lives <= 0)
+            {
+                AudioManager.Instance.Play("deathPlayer");
                 SceneManager.LoadScene(2);
+               
+            }
 
             onLifeValueChange?.Invoke(_Lives);
 

@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 5761307189193158659}
   - component: {fileID: 5761307189193158658}
   - component: {fileID: 5761307188805720250}
+  - component: {fileID: 2460512384741109649}
   - component: {fileID: 5761307189193158657}
   - component: {fileID: 5761307189193158656}
   - component: {fileID: 5761307189193158671}
@@ -149,6 +150,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.96, y: 1.7443551}
   m_EdgeRadius: 0
+--- !u!114 &2460512384741109649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761307189193158670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a312bb692400d147afb9930f3226f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHeath: 0
+  deathSound: {fileID: 8300000, guid: 5c7e9a46630b92b49aa618ca8cb0368f, type: 3}
 --- !u!114 &5761307189193158657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHeath: 5
+  deathSound: {fileID: 8300000, guid: 5c7e9a46630b92b49aa618ca8cb0368f, type: 3}
   projectileFireRate: 5
   minAttackDistance: 1.5
   force: 0

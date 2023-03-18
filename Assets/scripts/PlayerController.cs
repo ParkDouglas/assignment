@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
 
 public class PlayerController : MonoBehaviour
@@ -10,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     Animator anim;
     SpriteRenderer sr;
+    AudioSourceManager asm;
 
     //movement var
     public float speed;
@@ -22,6 +24,10 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public LayerMask isGroundlayer;
     public float groundCheckRadius;
+
+    //soundclips
+    public AudioClip jumpSound;
+    public AudioClip squishSound;
 
     Coroutine jumpForceChange;
 
@@ -39,8 +45,8 @@ public class PlayerController : MonoBehaviour
 
             if (_Lives > maxLives)
                 _Lives = maxLives;
-           // if (_Lives < 0)
-              //  gameover
+               
+                 
                 
               Debug.Log("lives have been set to: " + _Lives.ToString());
         }
@@ -52,6 +58,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        asm= GetComponent<AudioSourceManager>();
 
         if (speed <= 0)
         {
@@ -119,6 +126,7 @@ public class PlayerController : MonoBehaviour
         if(!isGrounded && Input.GetButtonDown("Jump"))
         {
             anim.SetTrigger("JumpAttack");
+            asm.PlayOneShot(jumpSound, false);
         }
 
 
@@ -198,6 +206,7 @@ public class PlayerController : MonoBehaviour
             EnemyWalker enemy = collision.gameObject.transform.parent.GetComponent<EnemyWalker>();
             enemy.Squish();
             rb.AddForce(Vector2.up * 500);
+            asm.PlayOneShot(squishSound, false);
         }
     }
     public virtual void TakeDamage(int damage)

@@ -12,7 +12,7 @@ public class PowerUp : MonoBehaviour
         Speed,
     }
     public PowerUpType currentPickup;
-
+    public AudioClip pickupSound;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -37,7 +37,10 @@ public class PowerUp : MonoBehaviour
                     break;
                 }
         }
-        
+
+        if (pickupSound)
+            collision.gameObject.GetComponent<AudioSourceManager>().PlayOneShot(pickupSound, false);
+
         Destroy(gameObject);
     }
 }
